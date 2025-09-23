@@ -1,1 +1,27 @@
-/* Put your CSS in here */
+#RedDeadTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* optional, centers vertically if the div has height */
+}
+
+p {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 16px; /* adjust size if you want */
+      line-height: 1.5;
+    }
+
+p {
+    text-align: left;
+}
+
+h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: large;
+      line-height: 1.5;
+    }
+
+    h3 {
+        font-family: 'Bebas Neue', sans-serif;
+      
+      line-height: 1.5;
+    }
