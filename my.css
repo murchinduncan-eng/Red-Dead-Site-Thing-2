@@ -68,3 +68,25 @@ strong {
   display: block;
   margin: 40px auto 20px auto;
 }
+
+body {
+  max-width: 100%;
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 5px 10px;
+}
