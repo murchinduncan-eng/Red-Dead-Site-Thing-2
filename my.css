@@ -90,3 +90,7 @@ nav ul {
 nav ul li {
   margin: 5px 10px;
 }
+
+a {
+  text-align: center;
+}
