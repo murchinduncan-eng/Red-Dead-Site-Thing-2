@@ -5,13 +5,6 @@
 }
 
 p {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 16px; 
-      line-height: 1.5;
-      color: white
-    }
-
-p {
     text-align: center;
     
 }
@@ -50,6 +43,7 @@ h3 {
 }
 
 p {
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 18px;
   line-height: 1.7;
   max-width: 800px;
@@ -66,5 +60,8 @@ strong {
   margin: 40px auto 20px auto;
 }
 a {
+  text-align: center;
+}
+ul {
   text-align: center;
 }
