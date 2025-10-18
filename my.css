@@ -1,67 +1,105 @@
-#RedDeadTitle {
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-}
-
-p {
-    text-align: center;
-    
-}
-
-h2 {
-      font-family: 'Bebas Neue', sans-serif;
-    }
-
-    h3 {
-        font-family: 'Bebas Neue', sans-serif;
-      text-align: center;
-      line-height: 1.5;
-      color: rgb(209, 203, 203)
-    }
-
-
-
 body {
-  background-color: black;
+  background-color: #000;
+  color: #eee;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* TITLE IMAGE */
+#RedDeadTitle {
+  text-align: center;
+  margin: 30px 0;
+}
+
+#RedDeadTitle img {
+  border-radius: 8px;
+  box-shadow: 0 0 15px #b00;
+}
+
+/* NAVIGATION BAR */
+nav {
+  background-color: #111;
+  border-top: 2px solid #b00;
+  border-bottom: 2px solid #b00;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 25px;
+}
+
+nav ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
-h2
- {
-  color: rgb(170, 5, 38);
-  font-size: 25px;
-  margin: 40px 0 20px 0;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
 }
 
-h3 {
-  color: gold;
-  font-size: 24px;
+nav ul li a {
+  color: #f44;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+  color: #f44;
+  text-shadow: 0 0 5px #900;
+}
+
+h1 {
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+h2 {
   margin-top: 30px;
 }
 
-p {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 18px;
-  line-height: 1.7;
-  max-width: 800px;
-  margin: 20px auto;
-  color: #ddd;
+/* IMAGES */
+img {
+  display: block;
+  margin: 15px auto;
+  border: 2px solid #444;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #222;
 }
+
+/* TEXT */
+p, li {
+  max-width: 850px;
+  margin: 10px auto;
+  padding: 0 20px;
+  font-size: 17px;
+}
+
+/* LINKS */
+a {
+  color: #f44;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* FOOTER / MISC */
 strong {
   color: #fff;
 }
 
-
-#RedDeadTitle img {
-  display: block;
-  margin: 40px auto 20px auto;
-}
-a {
-  text-align: center;
-}
-ul {
-  text-align: center;
+i {
+  color: #ccc;
 }
